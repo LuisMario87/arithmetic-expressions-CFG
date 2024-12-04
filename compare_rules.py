@@ -1,6 +1,6 @@
 import json
 
-# Cargar reglas manuales y generadas
+# Cargar reglas 
 with open("C:\\Users\\luism\\OneDrive\\Documentos\\A. Tareas 7mo semestre\\Mat DIscretas\\ProyectoFinal\\codigo\\manual_rules.json") as manual_file, open("C:\\Users\\luism\\OneDrive\\Documentos\\A. Tareas 7mo semestre\\Mat DIscretas\\ProyectoFinal\\codigo\\generated_rules.json") as ai_file:
     manual_rules = json.load(manual_file)
     ai_rules = json.load(ai_file)
